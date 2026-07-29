@@ -32,7 +32,7 @@ const jobs = [
       'Review invoices, expenses, payroll-related financial matters and vendor/customer balances.',
       'Coordinate with banks, auditors, tax agents, clients and other stakeholders on financial matters.',
       'Identify financial risks, improve accounting processes and support cost control and operational efficiency.',
-      'Supervise and guide the Accounts & Finance team, ensuring timely completion of assigned tasks.',
+      'Supervise and guide the Finance & Accounts team, ensuring timely completion of assigned tasks.',
       'Support senior management in financial planning, decision-making and business analysis.'
     ]
   },
@@ -87,7 +87,7 @@ function App(){
   useEffect(()=>{AOS.init({duration:750,once:true,offset:70})},[])
   return <div className="app">
     <motion.div className="scroll-progress" style={{scaleX}}/>
-    <header><nav className="nav-wrap"><a href="#home" className="brand"><span>FS</span><div><b>Farhan Siddiqui</b><small>Accounts & Finance</small></div></a><button className="menu" onClick={()=>setOpen(!open)}>{open?<FaTimes/>:<FaBars/>}</button><div className={`navlinks ${open?'open':''}`}>{nav.map(n=><a key={n} onClick={()=>setOpen(false)} href={`#${n.toLowerCase()}`}>{n}</a>)}<a className="nav-cta" href="/farhan-portfolio/Muhammad_Farhan_Siddiqui_CV.pdf" download><FaDownload/> CV</a></div></nav></header>
+    <header><nav className="nav-wrap"><a href="#home" className="brand"><span>FS</span><div><b>Farhan Siddiqui</b><small>Finance & Accounts</small></div></a><button className="menu" onClick={()=>setOpen(!open)}>{open?<FaTimes/>:<FaBars/>}</button><div className={`navlinks ${open?'open':''}`}>{nav.map(n=><a key={n} onClick={()=>setOpen(false)} href={`#${n.toLowerCase()}`}>{n}</a>)}<a className="nav-cta" href="/farhan-portfolio/Muhammad_Farhan_Siddiqui_CV.pdf" download><FaDownload/> CV</a></div></nav></header>
 
     <main>
       <section id="home" className="hero section-bg hero-bg">
