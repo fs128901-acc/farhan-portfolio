@@ -20,7 +20,7 @@ const competencies = [
 ]
 const jobs = [
   {
-    company:'PUKAT TECHNOLOGY PVT LTD', location:'Lahore, Pakistan', role:'Manager Accounts & Finance', period:'April 2021 – Present',
+    company:'PUKAT TECHNOLOGY PVT LTD', location:'Lahore, Pakistan', role:'Manager Finance & Accounts', period:'April 2021 – Present',
     bullets:[
       'Manage day-to-day finance and accounting operations, including AP, AR, general ledger and reconciliations.',
       'Prepare and review monthly, quarterly and annual financial reports and management accounts.',
@@ -96,7 +96,7 @@ function App(){
         <div className="container hero-grid">
           <motion.div initial={{opacity:0,x:-30}} animate={{opacity:1,x:0}} transition={{duration:.8}} className="hero-copy">
             <p className="eyebrow">Finance leadership • Reporting • Controls</p>
-            <h1>Muhammad Farhan <span>Siddiqui</span></h1><h2>Manager Accounts & Finance</h2>
+            <h1>Muhammad Farhan <span>Siddiqui</span></h1><h2>Manager Finance & Accounts</h2>
             <p className="lead">Helping organisations strengthen financial reporting, reconciliation, controls and management visibility through practical, business-focused finance.</p>
             <div className="actions"><a className="btn primary" href="/farhan-portfolio/Muhammad_Farhan_Siddiqui_CV.pdf" download><FaDownload/> Download CV</a><a className="btn secondary" href="#contact">Contact Me</a><a className="icon-btn" href="https://www.linkedin.com/in/fmh190" target="_blank" rel="noreferrer"><FaLinkedinIn/></a></div>
             <div className="tech-tags"><span>SAP Business One</span><span>One ERP</span><span>Xero</span><span>Advanced Excel</span></div>
@@ -105,7 +105,7 @@ function App(){
         </div>
       </section>
 
-      <section id="about" className="section section-bg about-bg"><div className="container split"><div data-aos="fade-up"><p className="eyebrow">About Me</p><h2 className="section-title">Practical finance leadership backed by 9+ years of experience.</h2><p className="body-copy">Finance and Accounts professional with 9+ years of experience across fintech, technology, construction and textile industries, currently serving as Manager Accounts & Finance at Pukat Technology Pvt Ltd. Strong experience in financial accounting, management reporting, bank and balance sheet reconciliations, AP/AR, cash management, taxation, ERP operations and fintech partner settlements. Hands-on expertise in SAP Business One, Xero and One ERP systems.</p><div className="bio-grid"><span><FaMapMarkerAlt/><b>Lahore, Pakistan</b></span><span><FaBriefcase/><b>Manager Accounts & Finance</b></span><span><FaGraduationCap/><b>BBA (Hons) – Finance</b></span><span><FaGlobe/><b>English • Urdu • Pashto</b></span></div></div><div className="portrait-card" data-aos="zoom-in"><img src="/farhan-portfolio/profile.jpg" alt="Professional portrait"/><div className="portrait-badge"><FaChartLine/><span><b>9+ Years</b><small>Finance Experience</small></span></div></div></div></section>
+      <section id="about" className="section section-bg about-bg"><div className="container split"><div data-aos="fade-up"><p className="eyebrow">About Me</p><h2 className="section-title">Practical finance leadership backed by 9+ years of experience.</h2><p className="body-copy">Finance and Accounts professional with 9+ years of experience across fintech, technology, construction and textile industries, currently serving as Manager Finance & Accounts at Pukat Technology Pvt Ltd. Strong experience in financial accounting, management reporting, bank and balance sheet reconciliations, AP/AR, cash management, taxation, ERP operations and fintech partner settlements. Hands-on expertise in SAP Business One, Xero and One ERP systems.</p><div className="bio-grid"><span><FaMapMarkerAlt/><b>Lahore, Pakistan</b></span><span><FaBriefcase/><b>Manager Finance & Accounts</b></span><span><FaGraduationCap/><b>BBA (Hons) – Finance</b></span><span><FaGlobe/><b>English • Urdu • Pashto</b></span></div></div><div className="portrait-card" data-aos="zoom-in"><img src="/farhan-portfolio/profile.jpg" alt="Professional portrait"/><div className="portrait-badge"><FaChartLine/><span><b>9+ Years</b><small>Finance Experience</small></span></div></div></div></section>
 
       <section className="stats-strip"><div className="container stats">{[[9,'+','Years Experience'],[4,'','Industries'],[3,'','ERP Platforms'],[12,'+','Core Competencies']].map(([v,s,l])=><div key={l} data-aos="fade-up"><strong><Counter value={v} suffix={s}/></strong><span>{l}</span></div>)}</div></section>
 
